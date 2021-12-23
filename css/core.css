@@ -524,6 +524,7 @@ html.wf-active {
 .lazy-img {
     position: relative;
     display: block;
+    overflow: hidden;
 }
 
 .lazy-img img,
