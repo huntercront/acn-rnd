@@ -1116,6 +1116,7 @@ html.wf-active {
 @media screen and (max-width:860px) {
     .stack {
         margin-top: 7rem;
+        margin-bottom: 3rem;
     }
 }
 
@@ -1124,6 +1125,13 @@ html.wf-active {
         grid-column: 1/-1;
         align-self: start;
         justify-self: start;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .stack {
+        margin-top: 4rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -1206,9 +1214,10 @@ html.wf-active {
 
 @media screen and (max-width:540px) {
     .stream-el {
-        grid-template-columns: 4rem 1fr;
-        column-gap: 1rem;
+        grid-template-columns: 7rem 1fr;
+        column-gap: 0.75rem;
         width: 100%;
+        align-items: start;
     }
     .stream-list {
         grid-template-columns: 1fr;
@@ -1293,7 +1302,12 @@ html.wf-active {
     padding-bottom: 45%;
 }
 
+.video-content {
+    overflow: hidden;
+}
+
 .decore-text {
+    display: inline-block;
     white-space: nowrap;
     color: var(--gray-25);
     font-size: calc(3rem + 5vw);
@@ -1374,7 +1388,7 @@ html.wf-active {
 
 @media screen and (max-width:860px) {
     .decore-text {
-        font-size: 11vw;
+        font-size: 10vw;
     }
 }
 
