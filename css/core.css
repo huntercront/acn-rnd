@@ -1430,6 +1430,25 @@ html.wf-active {
     margin-top: 8rem;
 }
 
+@media screen and (max-width:860px) {
+    .social {
+        margin-top: 7rem;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .social-content {
+        grid-template-columns: 1fr 1fr;
+    }
+    .social-text {
+        grid-column: 1/-1;
+        justify-self: start;
+    }
+    .social {
+        margin-top: 4rem;
+    }
+}
+
 
 /* footer */
 
