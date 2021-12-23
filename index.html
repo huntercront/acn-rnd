@@ -10,6 +10,53 @@
  </head>
 
  <body>
+  <header class="header">
+   <div class="container">
+    <div class="header-content c-sb">
+     <a href="#" class="header-logo site-logo c-s">
+      <img src="./img/logo.svg" alt="">
+     </a>
+     <nav>
+      <ul class="site-nav f-links">
+       <li>
+        <a href="#">Вакансии</a>
+       </li>
+       <li>
+        <a href="#">Откликнуться</a>
+       </li>
+      </ul>
+     </nav>
+    </div>
+   </div>
+  </header>
+  <div class="info-modal ">
+   <div class="modal-content c-c">
+    <div class="modal s-s">
+     <div class="modal-header c-s">
+      <div class="stack-icon c-c c-c">
+       <div class="icon icon-sm c-c">
+        <svg fill="none" viewBox="0 0 24 24">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 4 11 8-11 8" />
+									</svg>
+       </div>
+      </div>
+      <p class="text m-0"><strong></strong></p>
+      <button class="more-icon close-icon c-c">
+       <div class="icon icon-sm c-c">
+        <svg fill="none" viewBox="0 0 24 24">
+	<path stroke="#C2C3C9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+		d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Zm3-13-6 6m0-6 6 6" />
+</svg>
+       </div>
+      </button>
+     </div>
+     <div class="modal-main">
+     </div>
+    </div>
+   </div>
+  </div>
+
+
   <main class="main">
 
 
@@ -19,7 +66,7 @@
       <div class="hero-descr">
        <h1 class="title-xl">Развивай свою экспертизу в IT вместе с Accenture
        </h1>
-       <p class="text-m">Стань частью глобальной команды профессионалов
+       <p class="text-l">Стань частью глобальной команды профессионалов
        </p>
        <a href="#" class="link text c-s">
         <div class="icon icon-sm c-c"><svg fill="none" viewBox="0 0 24 24">
@@ -76,9 +123,12 @@
     <div class="container">
      <div class="about-content">
 
-      <div class="about-img c-s">
-
-       <video src="./video/ezgif.com-gif-maker.mp4" autoplay muted loop></video>
+      <div class="about-img">
+       <div class="video-logo lazy-img lazy-progress c-c">
+        <video class="lazy" autoplay muted loop width="100%" height="480" data-src="./video/anim-logo.mp4" data-poster="./img/poster-one.jpg">
+								<source type="video/mp4" data-src="./video/anim-logo.mp4" />
+							</video>
+       </div>
       </div>
 
       <h2 class="title-l">Accenture — международная технологическая компания</h2>
@@ -109,13 +159,10 @@
 
       <h2 class="title-l">Мы работаем с</h2>
 
-      <div class="stack-el">
-       <div class="stack-icon">
+      <a href="#" class="stack-el slide-hover" data-text="#Python, #SQL, #Amazon, #AWS, #MS #Azure, #Google Cloud, #NumPy, #Pandas, #Matplotlib, #Scikit-learn, #SciPy Infrastructure (#Clouds, #DevOps, #DBA">
+       <div class="stack-icon c-c">
         <div class="icon icon-sm c-c">
-         <svg fill="none" viewBox="0 0 24 24">
-									<path stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
-								</svg>
+         <svg fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 4 11 8-11 8"/></svg>
         </div>
        </div>
        <p class="text m-0"><strong>System Analysis</strong></p>
@@ -129,18 +176,15 @@
 								</svg>
         </div>
        </div>
-      </div>
+      </a>
 
-      <div class="stack-el">
-       <div class="stack-icon">
+      <a href="#" class="stack-el slide-hover" data-text="#JavaScript: React, Redux, Angular">
+       <div class="stack-icon c-c">
         <div class="icon icon-sm c-c">
-         <svg fill="none" viewBox="0 0 24 24">
-									<path stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
-								</svg>
+         <svg fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 4 11 8-11 8"/></svg>
         </div>
        </div>
-       <p class="text m-0"><strong>System Analysis</strong></p>
+       <p class="text m-0"><strong>Frontend</strong></p>
        <div class="more-icon">
         <div class="icon icon-sm c-c">
          <svg fill="none" viewBox="0 0 24 24">
@@ -151,19 +195,16 @@
 								</svg>
         </div>
        </div>
-      </div>
+      </a>
 
 
-      <div class="stack-el">
-       <div class="stack-icon">
+      <a href="#" class="stack-el slide-hover" data-text="#Java: JSE, JEE, Spring, #Camunda, #Kafka, #Microservices #Python">
+       <div class="stack-icon c-c">
         <div class="icon icon-sm c-c">
-         <svg fill="none" viewBox="0 0 24 24">
-									<path stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
-								</svg>
+         <svg fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 4 11 8-11 8"/></svg>
         </div>
        </div>
-       <p class="text m-0"><strong>System Analysis</strong></p>
+       <p class="text m-0"><strong>Backend</strong></p>
        <div class="more-icon">
         <div class="icon icon-sm c-c">
          <svg fill="none" viewBox="0 0 24 24">
@@ -174,19 +215,16 @@
 								</svg>
         </div>
        </div>
-      </div>
+      </a>
 
 
-      <div class="stack-el">
-       <div class="stack-icon">
+      <a href="#" class="stack-el slide-hover" data-text="#Auto: Selenium, Cucumber, #Manual: REST, SOAP, MQ, SQL">
+       <div class="stack-icon c-c">
         <div class="icon icon-sm c-c">
-         <svg fill="none" viewBox="0 0 24 24">
-									<path stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
-								</svg>
+         <svg fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 4 11 8-11 8"/></svg>
         </div>
        </div>
-       <p class="text m-0"><strong>System Analysis</strong></p>
+       <p class="text m-0"><strong>Testing</strong></p>
        <div class="more-icon">
         <div class="icon icon-sm c-c">
          <svg fill="none" viewBox="0 0 24 24">
@@ -197,19 +235,16 @@
 								</svg>
         </div>
        </div>
-      </div>
+      </a>
 
 
-      <div class="stack-el">
-       <div class="stack-icon">
+      <a href="#" class="stack-el slide-hover" data-text="#HANA#HCM #BPC/BW #PM #PP #KPI #MM #FI">
+       <div class="stack-icon c-c">
         <div class="icon icon-sm c-c">
-         <svg fill="none" viewBox="0 0 24 24">
-									<path stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
-								</svg>
+         <svg fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 4 11 8-11 8"/></svg>
         </div>
        </div>
-       <p class="text m-0"><strong>System Analysis</strong></p>
+       <p class="text m-0"><strong>SAP</strong></p>
        <div class="more-icon">
         <div class="icon icon-sm c-c">
          <svg fill="none" viewBox="0 0 24 24">
@@ -220,19 +255,16 @@
 								</svg>
         </div>
        </div>
-      </div>
+      </a>
 
 
-      <div class="stack-el">
-       <div class="stack-icon">
+      <a href="#" class="stack-el slide-hover" data-text="#SQL, #DWH, #ETL, #Data Lakes">
+       <div class="stack-icon c-c">
         <div class="icon icon-sm c-c">
-         <svg fill="none" viewBox="0 0 24 24">
-									<path stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
-								</svg>
+         <svg fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 4 11 8-11 8"/></svg>
         </div>
        </div>
-       <p class="text m-0"><strong>System Analysis</strong></p>
+       <p class="text m-0"><strong>Data analytics</strong></p>
        <div class="more-icon">
         <div class="icon icon-sm c-c">
          <svg fill="none" viewBox="0 0 24 24">
@@ -243,19 +275,16 @@
 								</svg>
         </div>
        </div>
-      </div>
+      </a>
 
 
-      <div class="stack-el">
-       <div class="stack-icon">
+      <a href="#" class="stack-el slide-hover" data-text="#SQL, #Oracle, #DWH, #ETL, #Teradata, #Hadoop, #pySpark, #AWS">
+       <div class="stack-icon c-c">
         <div class="icon icon-sm c-c">
-         <svg fill="none" viewBox="0 0 24 24">
-									<path stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
-								</svg>
+         <svg fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 4 11 8-11 8"/></svg>
         </div>
        </div>
-       <p class="text m-0"><strong>System Analysis</strong></p>
+       <p class="text m-0"><strong>Data engineering</strong></p>
        <div class="more-icon">
         <div class="icon icon-sm c-c">
          <svg fill="none" viewBox="0 0 24 24">
@@ -266,18 +295,15 @@
 								</svg>
         </div>
        </div>
-      </div>
+      </a>
 
-      <div class="stack-el">
-       <div class="stack-icon">
+      <a href="#" class="stack-el slide-hover" data-text="#Qlik View, #Qlik Sense, #Tableau, #Power BI">
+       <div class="stack-icon c-c">
         <div class="icon icon-sm c-c">
-         <svg fill="none" viewBox="0 0 24 24">
-									<path stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
-								</svg>
+         <svg fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 4 11 8-11 8"/></svg>
         </div>
        </div>
-       <p class="text m-0"><strong>System Analysis</strong></p>
+       <p class="text m-0"><strong>BI</strong></p>
        <div class="more-icon">
         <div class="icon icon-sm c-c">
          <svg fill="none" viewBox="0 0 24 24">
@@ -288,15 +314,418 @@
 								</svg>
         </div>
        </div>
-      </div>
+      </a>
+
+      <a href="#" class="stack-el slide-hover" data-text="#Clouds, #DevOps, #DBA">
+       <div class="stack-icon c-c">
+        <div class="icon icon-sm c-c">
+         <svg fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 4 11 8-11 8"/></svg>
+        </div>
+       </div>
+       <p class="text m-0"><strong>Infrastructure</strong></p>
+       <div class="more-icon">
+        <div class="icon icon-sm c-c">
+         <svg fill="none" viewBox="0 0 24 24">
+																<path stroke="#C2C3C9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																	d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z" />
+																<path stroke="#C2C3C9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																	d="m12 16 4-4-4-4m-4 4h8" />
+															</svg>
+        </div>
+       </div>
+      </a>
+
+      <a href="#" class="stack-el slide-hover" data-text="#Python, #SQL, #Amazon, #AWS, #MS #Azure, #Google Cloud, #NumPy, #Pandas, #Matplotlib, #Scikit-learn, #SciPy">
+       <div class="stack-icon c-c">
+        <div class="icon icon-sm c-c">
+         <svg fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 4 11 8-11 8"/></svg>
+        </div>
+       </div>
+       <p class="text m-0"><strong>Machine Learninge</strong></p>
+       <div class="more-icon">
+        <div class="icon icon-sm c-c">
+         <svg fill="none" viewBox="0 0 24 24">
+																<path stroke="#C2C3C9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																	d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z" />
+																<path stroke="#C2C3C9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																	d="m12 16 4-4-4-4m-4 4h8" />
+															</svg>
+        </div>
+       </div>
+      </a>
 
 
      </div>
     </div>
    </section>
 
+   <div class="animated-text">
+    <div class="text-content c-s">
+     <span class="anim-text">#РаботайВAccenture</span><span class="anim-text">#РаботайВAccenture</span><span class="anim-text">#РаботайВAccenture</span>
+    </div>
+   </div>
+
+
+   <section class="streams">
+    <div class="container">
+     <div class="w-70">
+      <h2 class="title-l">ТОП наших клиентов — это мировые бренды и компании в более чем 13 отраслях</h2>
+      <p class="text-l ">
+       Углуби экспертизу в различных индустриях, оставаясь в компании
+      </p>
+     </div>
+     <div class="stream-list">
+      <div class="stream-el">
+       <div class="lazy-img lazy-progress">
+        <img data-src="./img/cmt.jpg" class="lazy" alt="CMT">
+       </div>
+       <div class="stream-info">
+        <p class="text m-0"><strong>Телекоммуникации, Медиа и высокие Технологии (CMT)</strong></p>
+        <ul class="custom-list">
+         <li>Телекоммуникации и медиа</li>
+         <li>Высокие технологии</li>
+         <li>Программное обеспечение</li>
+        </ul>
+       </div>
+      </div>
+
+      <div class="stream-el">
+       <div class="lazy-img lazy-progress">
+        <img data-src="./img/fs.jpg" class="lazy" alt="FS">
+       </div>
+       <div class="stream-info">
+        <p class="text m-0"><strong>Услуги для Финансового Сектора (FS)</strong></p>
+        <ul class="custom-list">
+         <li>Банки и финансовые рынки</li>
+         <li>Страхование</li>
+        </ul>
+       </div>
+      </div>
+
+      <div class="stream-el">
+       <div class="lazy-img lazy-progress">
+        <img data-src="./img/hp&s.jpg" class="lazy" alt="HP&S">
+       </div>
+       <div class="stream-info">
+        <p class="text m-0"><strong>Здравоохранение и услуги для гос.организаций (HP&S)</strong></p>
+        <ul class="custom-list">
+         <li>Здравоохранение</li>
+         <li>Услуги для государственных организаций</li>
+        </ul>
+       </div>
+      </div>
+
+      <div class="stream-el">
+       <div class="lazy-img lazy-progress">
+        <img data-src="./img/prd.jpg" class="lazy" alt="PRD">
+       </div>
+       <div class="stream-info">
+        <p class="text m-0"><strong>Продукты (PRD)</strong></p>
+        <ul class="custom-list">
+         <li>Потребительские товары и услуги</li>
+         <li>Промышленность</li>
+         <li>Фармацевтика</li>
+        </ul>
+       </div>
+      </div>
+
+      <div class="stream-el">
+       <div class="lazy-img lazy-progress">
+        <img data-src="./img/res.jpg" class="lazy" alt="RES">
+       </div>
+       <div class="stream-info">
+        <p class="text m-0"><strong>Ресурсы (RES)</strong></p>
+        <ul class="custom-list">
+         <li>Химия и природные ресурсы</li>
+         <li>Энергетика</li>
+         <li>Коммунальные услуги</li>
+        </ul>
+       </div>
+      </div>
+
+      <div class="stream-el">
+       <div class="lazy-img lazy-progress">
+        <img data-src="./img/13-more.jpg" class="lazy" alt="Больше 13">
+       </div>
+       <div class="stream-info">
+        <p class="text m-0"><strong>Отраслей</strong></p>
+        <p>В которых ты сможешь показать свои навыки</p>
+       </div>
+      </div>
+
+     </div>
+    </div>
+   </section>
+   <div class="cta-block">
+    <div class="container">
+     <div class="cta-inner c-sb">
+      <p class="text-l m-0"><strong>Хочешь стать частью компании и углубить свою экспертизу?</strong></p>
+      <a href="#" class="link text c-s m-0">
+       <div class="icon icon-sm c-c"><svg fill="none" viewBox="0 0 24 24">
+								<path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2Z" />
+								<path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m22 6-10 7L2 6" />
+							</svg>
+       </div>
+       <span>
+								Связаться с нами
+							</span>
+      </a>
+     </div>
+    </div>
+   </div>
+
+   <section class="work">
+
+    <div class="container">
+     <div class="work-content">
+      <h2 class="title-xl work-title">Что такое работать в Accenture</h2>
+      <div class="work-adv">
+       <div class="adv-el">
+        <div class="icon icon-m c-c lazy-img lazy-progress">
+         <img class="lazy" data-src="./img/rocket.svg" alt="">
+        </div>
+        <p class="text m-0"><strong>Постоянный экспертный рост и профессиональное развитие</strong></p>
+       </div>
+       <div class="adv-el">
+        <div class="icon icon-m c-c lazy-img lazy-progress">
+         <img class="lazy" data-src="./img/law.svg" alt="">
+        </div>
+        <p class="text m-0"><strong>Оформление по ТК, ДМС для сотрудников и детей, компенсация питания и связи</strong></p>
+       </div>
+
+       <div class="adv-el">
+        <div class="icon icon-m c-c lazy-img lazy-progress">
+         <img class="lazy" data-src="./img/eng.svg" alt="">
+        </div>
+        <p class="text m-0"><strong>Уроки английского языка</strong></p>
+       </div>
+
+       <div class="adv-el">
+        <div class="icon icon-m c-c lazy-img lazy-progress">
+         <img class="lazy" data-src="./img/credit-card.svg" alt="">
+        </div>
+        <p class="text m-0"><strong>Достойная заработная плата и ежегодные премии</strong></p>
+       </div>
+
+       <div class="adv-el">
+        <div class="icon icon-m c-c lazy-img lazy-progress">
+         <img class="lazy" data-src="./img/zap.svg" alt="">
+        </div>
+        <p class="text m-0"><strong>Конференции, митапы
+								и вечеринки</strong></p>
+       </div>
+
+       <div class="adv-el animate">
+        <div class="icon icon-m c-c lazy-img lazy-progress">
+         <img class="lazy" data-src="./img/globe.svg" alt="">
+        </div>
+        <p class="text m-0"><strong>Работа на масштабных проектах мира и РФ</strong></p>
+       </div>
+
+       <div class="adv-el">
+        <div class="icon icon-m c-c lazy-img lazy-progress">
+         <img class="lazy" data-src="./img/book.svg" alt="">
+        </div>
+        <p class="text m-0"><strong>Собственная система обучения и международная сертификация за счет компании</strong></p>
+       </div>
+
+       <div class="adv-el">
+        <div class="icon icon-m c-c lazy-img lazy-progress">
+         <img class="lazy" data-src="./img/thumbs-up.svg" alt="">
+        </div>
+        <p class="text m-0"><strong>Уютная дружеская атмосфера и дружелюбный менеджмент на “ты”</strong></p>
+       </div>
+
+      </div>
+     </div>
+    </div>
+
+
+   </section>
+   <section class="video animate anim-once">
+    <div class="container">
+     <div class="video-content">
+      <span class="decore-text c-c">Узнай о нас больше</span>
+      <div class="video-contaner lazy-img lazy-progress">
+       <video class="lazy" controls="controls" width="100%" height="480" data-src="./video/Accenture-video.mp4" data-poster="./img/poster.jpg">
+							<source type="video/mp4" data-src="./video/Accenture-video.mp4" />
+							<source type="video/WebM" data-src="./video/Accenture-video.webm" />
+						</video>
+      </div>
+     </div>
+    </div>
+   </section>
+
+   <section class="vacancy">
+    <div class="container">
+     <div class="vacancy-content">
+      <h2 class="title-l m-low">Вакансии</h2>
+      <p class="text-l ">
+       Развивай свою экспертизу в IT вместе с Accenture
+      </p>
+      <div class="vacancy-list">
+       <a href="#" class="vacancy-el slide-hover">
+        <p class="vacancy-type text-xs">Software Engineering</p>
+        <h3 class="vacancy-name text-l">Разработчик FIS Platform</h3>
+        <div class="vacancy-descr">
+         <p class="text-sm descr-type">Требуемый опыт работы:</p>
+         <p class="text-sm descr-info">1–3 года</p>
+         <p class="text-sm descr-type">Формат:</p>
+         <p class="text-sm descr-info">Полная занятость, удаленная работа</p>
+         <p class="text-sm descr-type">Локация:</p>
+         <p class="text-sm descr-info">Ростов-на-Дону</p>
+
+        </div>
+        <div class="more-icon">
+         <div class="icon icon-sm c-c">
+          <svg fill="none" viewBox="0 0 24 24">
+																				<path stroke="#C2C3C9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																					d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z"></path>
+																				<path stroke="#C2C3C9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																					d="m12 16 4-4-4-4m-4 4h8"></path>
+																			</svg>
+         </div>
+        </div>
+       </a>
+
+       <a href="#" class="vacancy-el slide-hover">
+        <p class="vacancy-type text-xs">Software Engineering</p>
+        <h3 class="vacancy-name text-l">Python разработчик</h3>
+        <div class="vacancy-descr">
+         <p class="text-sm descr-type">Требуемый опыт работы:</p>
+         <p class="text-sm descr-info">1–3 года</p>
+         <p class="text-sm descr-type">Формат:</p>
+         <p class="text-sm descr-info">Полная занятость, удаленная работа</p>
+         <p class="text-sm descr-type">Локация:</p>
+         <p class="text-sm descr-info">Ростов-на-Дону</p>
+
+        </div>
+        <div class="more-icon">
+         <div class="icon icon-sm c-c">
+          <svg fill="none" viewBox="0 0 24 24">
+																				<path stroke="#C2C3C9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																					d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z"></path>
+																				<path stroke="#C2C3C9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																					d="m12 16 4-4-4-4m-4 4h8"></path>
+																			</svg>
+         </div>
+        </div>
+       </a>
+
+       <a href="#" class="vacancy-el slide-hover">
+        <p class="vacancy-type text-xs">Business & Technology Integration</p>
+        <h3 class="vacancy-name text-l">Salesforce Consultant</h3>
+        <div class="vacancy-descr">
+         <p class="text-sm descr-type">Требуемый опыт работы:</p>
+         <p class="text-sm descr-info">1–3 года</p>
+         <p class="text-sm descr-type">Формат:</p>
+         <p class="text-sm descr-info">Полная занятость, удаленная работа</p>
+         <p class="text-sm descr-type">Локация:</p>
+         <p class="text-sm descr-info">Ростов-на-Дону</p>
+
+        </div>
+        <div class="more-icon">
+         <div class="icon icon-sm c-c">
+          <svg fill="none" viewBox="0 0 24 24">
+																				<path stroke="#C2C3C9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																					d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z"></path>
+																				<path stroke="#C2C3C9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																					d="m12 16 4-4-4-4m-4 4h8"></path>
+																			</svg>
+         </div>
+        </div>
+       </a>
+
+
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="social">
+    <div class="container">
+     <div class="social-content">
+      <div class="social-text">
+       <h2 class="title-l m-low">Будь в курсе</h2>
+       <p class="text-l ">
+        Подписывайся на наши новости
+       </p>
+      </div>
+      <a href="#" class="social-el" style="color: #364754;">
+       <div class="social-logo lazy-img lazy-progress c-c"><img class="lazy" data-src="./img/habr.svg" alt="ХАБР"></div>
+       <p class="social-name text-xs">Accenture Russia</p>
+      </a>
+
+      <a href="#" class="social-el" style="color: #0077FF;">
+       <div class="social-logo lazy-img lazy-progress c-c"><img class="lazy" data-src="./img/vk.svg" alt="Вконтакте"></div>
+       <p class="social-name text-xs">Accenture Тверь</p>
+      </a>
+
+      <a href="#" class="social-el" style="color: #0077FF;">
+       <div class="social-logo lazy-img lazy-progress c-c"><img class="lazy" data-src="./img/vk.svg" alt="Вконтакте"></div>
+       <p class="social-name text-xs">Accenture Ростов-на-Дону
+       </p>
+      </a>
+
+      <a href="#" class="social-el" style="color: #B62586;">
+       <div class="social-logo lazy-img lazy-progress c-c"><img class="lazy" data-src="./img/insta.svg" alt="Инстаграм"></div>
+       <p class="social-name text-xs">Accenture Russia</p>
+      </a>
+
+      <a href="#" class="social-el" style="color: #ff4949;">
+       <div class="social-logo lazy-img lazy-progress c-c"><img class="lazy" data-src="./img/youtoobe.svg" alt="Ютуб"></div>
+       <p class="social-name text-xs">Accenture Russia
+       </p>
+      </a>
+
+      <a href="#" class="social-el" style="color: #25A3E1;">
+       <div class="social-logo lazy-img lazy-progress c-c"><img class="lazy" data-src="./img/teleg.svg" alt="Телеграм"></div>
+       <p class="social-name text-xs">Accenture Russia
+       </p>
+      </a>
+
+     </div>
+    </div>
+   </section>
+
+
   </main>
+  <footer class="footer">
+   <div class="container">
+    <div class="footer-content">
+     <a href="#" class="lazy-img lazy-progress site-logo"><img class="lazy" data-src="./img/logo.svg" alt="Логотип"></a>
+
+     <ul class="f-links">
+      <li class="text-sm">
+       <a href="#">ХАБР</a>
+      </li>
+      <li class="text-sm">
+       <a href="#">Вконтакте Тверь</a>
+      </li>
+      <li class="text-sm">
+       <a href="#">Вконтакте Ростов-на-Дону</a>
+      </li>
+      <li class="text-sm">
+       <a href="#">Инстаграм</a>
+      </li>
+      <li class="text-sm">
+       <a href="#">Ютуб</a>
+      </li>
+      <li class="text-sm">
+       <a href="#">Телеграм</a>
+      </li>
+     </ul>
+
+     <div class="footer-img lazy-img lazy-progress c-c">
+      <img class="lazy" data-src="./img/liner-logo.svg" alt="Изменения">
+     </div>
+
+     <span class="copyright text-sm c-c">© Accenture, 2021</span>
+    </div>
+   </div>
+  </footer>
  </body>
- <script src="./js/app.js"></script>
+ <script src="./js/app.js">
+ </script>
 
 </html>
