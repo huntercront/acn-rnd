@@ -171,7 +171,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     let last_known_scroll_position = 0;
     let ticking = false;
-    let video = document.querySelector('video.lazy')
+    let video = document.querySelector('.video-contaner video')
 
     function doSomething(scroll_pos) {
         animOnScroll()
@@ -189,7 +189,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             ticking = true;
         }
     });
-    const aminItems = document.querySelectorAll('.animate')
+    const aminItems = document.querySelectorAll('.animate');
 
     function animOnScroll() {
         aminItems.forEach(function(aminItem) {
@@ -203,14 +203,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
             }
             if ((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
                 aminItem.classList.add('active');
-                if (aminItem.classList.contains('video')) {
+                if (aminItem.classList.contains('video', 'loaded')) {
                     video.play();
                     video.volume = 0.1;
                     video.removeAttribute('muted')
                 }
 
             } else {
-                if (aminItem.classList.contains('video')) {
+                if (aminItem.classList.contains('video', 'loaded')) {
                     video.pause();
                 }
             }
