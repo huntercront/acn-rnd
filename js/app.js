@@ -174,7 +174,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     let video = document.querySelector('video.lazy')
 
     function doSomething(scroll_pos) {
-        // animOnScroll()
+        animOnScroll()
     }
 
     window.addEventListener('scroll', function(e) {
@@ -224,7 +224,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
     }
     setTimeout(() => {
-        // animOnScroll();
+        animOnScroll();
     }, 300);
 
 })
