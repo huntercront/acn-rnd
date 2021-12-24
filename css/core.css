@@ -1131,7 +1131,7 @@ html.wf-active {
 
 @media screen and (max-width:520px) {
     .stack {
-        margin-top: 4rem;
+        margin-top: 5em;
         margin-bottom: 1rem;
     }
 }
@@ -1308,7 +1308,6 @@ html.wf-active {
 }
 
 .decore-text {
-    display: inline-block;
     white-space: nowrap;
     color: var(--gray-25);
     font-size: calc(3rem + 5vw);
